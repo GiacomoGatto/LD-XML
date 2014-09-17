@@ -29,7 +29,7 @@
 </system>
 
 <system>
-<manufacturer ID="1">Chronos</manufacturer>
+<manufacturer ID="2">AweJac</manufacturer>
 <name>JH3 Array</name>
  
 <instance_of>POW</instance_of>
@@ -59,7 +59,7 @@
 </system>
 
 <system>
-<manufacturer ID="1">Chronos</manufacturer>
+<manufacturer ID="2">AweJac</manufacturer>
 <name>JH3 Compatible Battery</name>
  
 <instance_of>BPOW</instance_of>
@@ -125,7 +125,7 @@
 </system>
 
 <system>
-<manufacturer ID="1">Chronos</manufacturer>
+<manufacturer ID="4">GigLor</manufacturer>
 <name>SQL40R2</name>
  
 <instance_of>CDH</instance_of>
@@ -163,7 +163,7 @@
 </system>
 
 <system>
-<manufacturer ID="1">Chronos</manufacturer>
+<manufacturer ID="4">GigLor</manufacturer>
 <name>Mono GVX</name>
  
 <instance_of>COM</instance_of>
@@ -190,7 +190,7 @@
 </system>
 
 <system>
-<manufacturer ID="1">Chronos</manufacturer>
+<manufacturer ID="3">J-Eng</manufacturer>
 <name>845M</name>
  
 <instance_of>AODCS</instance_of>
@@ -217,7 +217,7 @@
 </system>
 
 <system>
-<manufacturer ID="1">Chronos</manufacturer>
+<manufacturer ID="3">J-Eng</manufacturer>
 <name>PPT608</name>
  
 <instance_of>PROP</instance_of>
@@ -241,7 +241,7 @@
 </system>
 
 <system>
-<manufacturer ID="1">AweJac</manufacturer>
+<manufacturer ID="2">AweJac</manufacturer>
 <name>486 SWITCH</name>
  
 <part_of>POW</part_of>
