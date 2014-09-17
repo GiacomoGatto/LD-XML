@@ -239,3 +239,40 @@
 
 <status>OK</status>
 </system>
+
+<system>
+<manufacturer ID="1">AweJac</manufacturer>
+<name>486 SWITCH</name>
+ 
+<part_of>POW</part_of>
+<part_of>BPOW</part_of>
+ 
+<standard>cubesat</standard>
+ 
+<wire_out>CDH</wire_out>
+<wire_out>COM</wire_out>
+<wire_out>AODCS</wire_out>
+<wire_out>THERM</wire_out>
+<wire_out>PROP</wire_out>
+ 
+<wire_in>POW</wire_in>
+<wire_in>BPOW</wire_in>
+
+<volume unit="mm3">9800</volume>
+<mass unit="g">50</mass>
+<price unit="euro">1350</price>
+ 
+<function>Primary power</function>
+<function>Backup power</function>
+ 
+<media>electricity</media>
+ 
+<voltage_in unit="V">3.3</voltage_in>
+<voltage_out unit="V">1.3</voltage_out>
+<current_out unit="mA">300</current_out>
+<efficiency unit="percent">90</efficiency>
+<min_temperature unit="Celsius">-40</min_temperature>
+<max_temperature unit="Celsius">85</max_temperature>
+
+<status>OK</status>
+</system>
