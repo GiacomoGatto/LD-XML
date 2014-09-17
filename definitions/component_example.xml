@@ -276,3 +276,75 @@
 
 <status>OK</status>
 </system>
+
+<system>
+<manufacturer ID="4">GigLor</manufacturer>
+<name>Deploy 780</name>
+ 
+<part_of>COM</part_of>
+ 
+<standard>cubesat</standard>
+ 
+<wire_in>POW</wire_in>
+<wire_in>CDH</wire_in>
+
+<volume unit="mm3">30000</volume>
+<mass unit="g">80</mass>
+<price unit="euro">1000</price>
+ 
+<function>Communication</function>
+ 
+<voltage unit="V">3.3</voltage>
+<min_temperature unit="Celsius">-20</min_temperature>
+<max_temperature unit="Celsius">60</max_temperature>
+
+<status>OK</status>
+</system>
+
+<system>
+<manufacturer ID="2">AweJac</manufacturer>
+<name>XG-sense</name>
+ 
+<instance_of>Payload</instance_of>
+<part_of>spacecraft</part_of>
+ 
+<standard>cubesat</standard>
+ 
+<wire_out>CDH</wire_out>
+
+<wire_in>POW</wire_in>
+ 
+<volume unit="mm3">16</volume>
+<mass unit="g">5</mass>
+<price unit="euro">1700</price>
+ 
+<function>Gravitational wave detector</function>
+ 
+<voltage unit="V">3.3</voltage>
+<min_acceleration unit="G">0.1</min_acceleration>
+<max_acceleration unit="G">40</max_acceleration>
+ 
+<status>OK</status>
+</system>
+
+<system>
+<manufacturer ID="5">T U</manufacturer>
+<name>TermTape</name>
+ 
+<part_of>PROP</part_of>
+ 
+<standard>cubesat</standard>
+ 
+<wire_in>POW</wire_in>
+<wire_in>CDH</wire_in>
+
+<volume unit="mm3">53950</volume>
+<mass unit="g">85</mass>
+<price unit="euro">2000</price>
+ 
+<function>Propulsion - Deorbiting</function>
+ 
+<voltage unit="V">3.3</voltage>
+
+<status>OK</status>
+</system>
