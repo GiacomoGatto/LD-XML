@@ -142,9 +142,9 @@
 <wire_in>COM</wire_in>
 <wire_in>AODCS</wire_in>
  
-<volume​ unit="mm3">86400</volume>
-<mass​ unit="g">50</mass>
-<price​ unit="euro">4750</price>
+<volume unit="mm3">86400</volume>
+<mass unit="g">50</mass>
+<price unit="euro">4750</price>
  
 <function>Command & Data Handling</function>
  
@@ -345,6 +345,66 @@
 <function>Propulsion - Deorbiting</function>
  
 <voltage unit="V">3.3</voltage>
+
+<status>OK</status>
+</system>
+
+<system>
+<manufacturer ID="3">J-Eng</manufacturer>
+<name>SS 134</name>
+ 
+<part_of>AODCS</part_of>
+ 
+<standard>cubesat</standard>
+ 
+<wire_out>CDH</wire_out>
+
+<volume unit="mm3">10800</volume>
+<mass unit="g">30</mass>
+<power unit="W">0.036</power>
+<price unit="euro">4900</price>
+ 
+<function>Attitude Orbit Determination Control System</function>
+ 
+<media>Incident light</media>
+ 
+<accuracy unit="deg">0.3</accuracy>
+<voltage_in unit="V">5</voltage_in>
+
+<status>OK</status>
+</system>
+
+<system>
+<manufacturer ID="4">GigLor</manufacturer>
+<name>SuperOBC</name>
+ 
+<instance_of>CDH</instance_of>
+<part_of>spacecraft</part_of>
+ 
+<standard>cubesat</standard>
+ 
+<wire_out>PROP</wire_out>
+<wire_out>COM</wire_out>
+<wire_out>AODCS</wire_out>
+ 
+<wire_in>POW</wire_in>
+<wire_in>BPOW</wire_in>
+<wire_in>COM</wire_in>
+<wire_in>AODCS</wire_in>
+ 
+<volume unit="mm3">130950</volume>
+<mass unit="g">70</mass>
+<power unit="W">1</power>
+<price unit="euro">25000</price>
+ 
+<function>Command & Data Handling</function>
+ 
+<media>electricity</media>
+ 
+<voltage unit="V">6.5</voltage>
+<clock unit="MHz">100</clock>
+<min_temperature unit="Celsius">-30</min_temperature>
+<max_temperature unit="Celsius">90</max_temperature>
 
 <status>OK</status>
 </system>
